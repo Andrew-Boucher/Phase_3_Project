@@ -35,8 +35,22 @@ solver: saga
 
 Below is a graph of the results of our model showing the true positive predictions and the false negative predictions for each class. We achieved a recall score .7 for our model vs .07 of the baseline. Looking at the class of interest, "functional needs repair," our model showed a recall score of .79 vs the baseline of 0.07
 ![stacked bar graph with three bars, one for each graph, showing our model significantly outperforming the baseline by around 10x](./images/Model_Prediction_Stack_Bar.png)
+We decided to optimize our models ability to predict the true positives for the “functional needs repair” class while reducing the number of false negatives for that class (Recall = True Positives / (True Positives + False Negatives). In this way we believe our model can help The Water Project allocate its resources to best enhance water security while reducing immediate costs.
+
 
 The most important features that affected the target prediction the most are shown in this graph.
 ![A bar graph of the feature importances for every column listed in the source dataframe](./images/pumpfeatsplot.png)\
 This suggest that the critical features influencing the functionality of the waterpoint were 1) the type of the pump, 2) how much water is available, and 3) who is operating the waterpoint.
 
+
+
+## Repository Structure
+
+```
+├── working-notebooks                  <- Individual working notebooks of the development team, listed by team member name
+├── data                               <- Source datasets used in this analysis
+├── images                             <- Images used in and produced by our analysis
+├── .gitignore                         <- .gitignore file to prevent git from crawling unwanted and irrelevant files
+├── Final_Notebook.ipynb               <- Jupyter Notebook of our data analysis method and results, and the final machine learning model
+└── README.md                          <- This README
+ 
