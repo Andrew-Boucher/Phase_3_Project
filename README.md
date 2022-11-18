@@ -1,4 +1,4 @@
-[logo of a blue water droplet made of hands with Africa in the middle, next to the words "the water project"](./images/The_Water_Project.png)
+![logo of a blue water droplet made of hands with Africa in the middle, next to the words "the water project"](./images/The_Water_Project.png)
 \
 \
 ## Overview
@@ -35,10 +35,9 @@ penalty: l1\
 solver: saga
 
 Below is a graph of the results of our model compared to the baseline, showing a recall score .7 for our model vs .07 of the baseline. Looking at the class of interest, "functional needs repair," our model showed a recall score of .79 vs the baseline of 0.07
-[stacked bar graph with three bars, one for each graph, showing our model significantly outperforming the baseline by around 10x](Model_Prediction_Stack_Bar.png)
+![stacked bar graph with three bars, one for each graph, showing our model significantly outperforming the baseline by around 10x](Model_Prediction_Stack_Bar.png)
 
 The most important features that affected the target prediction the most are shown in this graph.
-[A bar graph of the feature importances for every column listed in the source dataframe](./images/pumpfeatsplot.png)\
+![A bar graph of the feature importances for every column listed in the source dataframe](./images/pumpfeatsplot.png)\
 This suggest that the critical features influencing the functionality of the waterpoint were 1) the type of the pump, 2) how much water is available, and 3) who is operating the waterpoint.
-
 
