@@ -1,6 +1,5 @@
 ![logo of a blue water droplet made of hands with Africa in the middle, next to the words "the water project"](./images/TheWaterProject.png)
 \
-\
 ## Overview
 
 [The Water Project](https://thewaterproject.org/how-we-work) is a non-profit organization which helps to reduce water scarcity in sub-Saharan Africa by providing the necessary resources for water well construction. Our team is helping The Water Project by using machine learning models to predict the functionality of wells throughout Tanzania. More specifically, we aim to identify wells that are in working condition but are in need of repair to guide The Water Project's future work in this region. This allows them to maximize water access while allocating resources in the most efficient way.
